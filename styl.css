@@ -239,6 +239,7 @@ footer {
 .social-icons a:hover{
   color:rgb(252, 244, 244);
   transform: translateY(-5px);
+}
 
 
 @media (max-width:920px) {
@@ -259,12 +260,18 @@ footer {
   }
 }
 @media (max-width:800px){
+  /*
   nav{
-    /*position: relative; */
+    position: relative; 
   }
+  */
   .navbar .bx-menu{
     display: block;
   }
+  nav .navbar .nav-links{
+    max-width: 100%;
+    } 
+  
   nav .navbar .nav-links{
     position: fixed;
     top: 0;
@@ -300,42 +307,44 @@ footer {
   nav .navbar .links li .arrow{
     line-height: 40px;
   }
-nav .navbar .links li{
+  nav .navbar .links li{
     display: block;
   }
-nav .navbar .links li .sub-menu{
+  nav .navbar .links li .sub-menu{
   position: relative;
   top: 0;
   box-shadow: none;
   display: none;
 }
-nav .navbar .links li .sub-menu li{
+  nav .navbar .links li .sub-menu li{
   border-bottom: none;
 
 }
-.navbar .links li .sub-menu .more-sub-menu{
+  .navbar .links li .sub-menu .more-sub-menu{
   display: none;
   position: relative;
   left: 0;
 }
-.navbar .links li .sub-menu .more-sub-menu li{
+  .navbar .links li .sub-menu .more-sub-menu li{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.links li:hover .htmlcss-arrow,
-.links li:hover .js-arrow{
+  .links li:hover .htmlcss-arrow,
+  .links li:hover .js-arrow{
   transform: rotate(0deg);
   }
   .navbar .links li .sub-menu .more-sub-menu{
     display: none;
   }
   .navbar .links li .sub-menu .more span{
-    /* background: red; */
+    background: red; 
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+     /* justify-content: space-between; */
+   
   }
+  
 
   .links li .sub-menu .more:hover .more-sub-menu{
     display: none;
@@ -344,7 +353,7 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .links li:hover .js-sub-menu{
     display: none;
   }
-.navbar .nav-links.show1 .links .htmlCss-sub-menu,
+  .navbar .nav-links.show1 .links .htmlCss-sub-menu,
   .navbar .nav-links.show3 .links .js-sub-menu,
   .navbar .nav-links.show2 .links .more .more-sub-menu{
       display: block;
@@ -356,9 +365,10 @@ nav .navbar .links li .sub-menu li{
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
     }
-}
+
+}   
 @media (max-width:370px){
   nav .navbar .nav-links{
   max-width: 100%;
-} 
+  } 
 }
