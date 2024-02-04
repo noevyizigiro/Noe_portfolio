@@ -365,6 +365,30 @@ footer {
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
     }
+   .content{
+    display: flex;
+    padding: 30%;
+  }
+  .home-text h1{
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  #about{
+    display: contents;
+  }
+
+  .row{
+    margin-left: 30px;
+    display: auto;
+  }
+  .about-col1 img{
+    width: 200vh;
+    margin-right: 400px; 
+  }
+  .sub-title{
+    color: red;
+  }
 
 }   
 @media (max-width:370px){
