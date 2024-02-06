@@ -388,11 +388,10 @@ footer {
     }
 
        /* contact section*/
-    .container{
-      display: flex;
-      width:100%;
-      
-    }
+    #contact{
+    display: flex;
+    flex-basis: 100%;
+  }
     .cont-title{
       margin-top: 50px;
     }
