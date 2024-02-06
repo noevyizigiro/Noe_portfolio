@@ -259,15 +259,7 @@ footer {
     font-size: 15px;
   }
 }
-@media (max-width:800px){
-  footer{
-    width:100%;
-  }
-  /*
-  nav{
-    position: relative; 
-  }
-  */
+@media (max-width:1250px){
   .navbar .bx-menu{
     display: block;
   }
@@ -387,22 +379,24 @@ footer {
         margin-right: 20px;
     }
 
-       /* contact section*/
-    .cont-title{
-      margin-top: 50px;
-    }
-    .container{
-      display: flex;
-    }
-    .contact-left, .contact-right{
-        flex-basis: 100%;
-    }
-    .btn.btn2{
-      display:flex;
-    }
-    form .btn.btn2{
-    margin-right: 80px;
+    /* contact section*/
+
+  .container{
+   margin-right: 40px;
+   margin-bottom: 150px;
+   display: flex;
   }
+ 
+  form .btn.btn2{
+  margin-left: -30px;
+  }
+  .contact-form form{
+    margin-left: -30px;
+  }
+  .cont-title{
+    margin-top: 50px;
+  }
+
       
     .copyright{
         font-size: 14px;
