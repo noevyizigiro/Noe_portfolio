@@ -391,6 +391,9 @@ footer {
     .cont-title{
       margin-top: 50px;
     }
+    .container{
+      display: flex;
+    }
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
