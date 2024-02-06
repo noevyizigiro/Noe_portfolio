@@ -390,13 +390,21 @@ footer {
        /* contact section*/
     .container{
       display: flex;
+      width:100%;
+      
     }
-    
+    .cont-title{
+      margin-top: 50px;
+    }
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
     .btn.btn2{
       display:flex;
+    }
+    form .btn.btn2{
+    margin-right: 80px;
+  }
       
     .copyright{
         font-size: 14px;
