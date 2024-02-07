@@ -361,6 +361,10 @@ footer {
       transform: rotate(90deg);
     }
    /* about section*/
+  #about{
+    display: contents;
+    flex-basis: 100%;
+  }
   .abtweb{
     width: 100%;
   }
