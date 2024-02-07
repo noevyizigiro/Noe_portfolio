@@ -431,9 +431,7 @@ footer {
     /* contact section*/
 
   .container{
-   margin-right: 40px;
-   margin-bottom: 150px;
-   width: 100%
+   max-width: 100%
   }
  
   form .btn.btn2{
