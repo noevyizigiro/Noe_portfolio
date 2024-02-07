@@ -369,7 +369,7 @@ footer {
     width: 100%;
   }
   .abtweb p{
-    margin-top: 100px;
+    margin-top: 80px;
     flex-basis: 100%;
     margin-left: -30px;
   }
@@ -389,7 +389,7 @@ footer {
     margin-bottom: 30px;
   }
   footer{
-    width: 115%;
+    width: 125%;
   }
 
     /* contact section*/
