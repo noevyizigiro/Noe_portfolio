@@ -426,6 +426,9 @@ footer {
     flex-wrap: wrap;
     width: 100%;
   }
+  footer{
+    width: 135%;
+  }
     /* contact section*/
 
   .container{
