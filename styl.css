@@ -393,6 +393,9 @@ footer {
   }
 
    /*Class & Bdi section*/
+  .article{
+    margin-left: 50px;
+  }
   .header1{
     display: flex;
   }
@@ -427,7 +430,7 @@ footer {
     width: 100%;
   }
   footer{
-    width: 135%;
+    width: 125%;
   }
     /* contact section*/
 
