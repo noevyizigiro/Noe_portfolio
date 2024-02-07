@@ -392,6 +392,40 @@ footer {
     width: 125%;
   }
 
+   /*Class & Bdi section*/
+  .header1{
+    display: flex;
+  }
+  .class-text h1{
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .bdi-text h1{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .art-cont{
+    flex-wrap: wrap;
+  }
+  .art-pic h5{
+    margin-left: 80px;
+  }
+  .art-text{
+    margin-left: -40px;
+    margin-right: -60px;
+
+ }
+ .title{
+  margin-right: -40px;
+  margin-left: -50px;
+ }
+  .pic{
+   padding-left: 50px;
+  }
+  .aft-article{
+    flex-wrap: wrap;
+    width: 100%;
+  }
     /* contact section*/
 
   .container{
