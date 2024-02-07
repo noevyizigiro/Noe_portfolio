@@ -360,13 +360,7 @@ footer {
     .navbar .nav-links.show2 .links .more-arrow{
       transform: rotate(90deg);
     }
-
-  
    /* about section*/
-  #about{
-    display: contents;
-    flex-basis: 100%;
-  }
   .abtweb{
     width: 100%;
   }
