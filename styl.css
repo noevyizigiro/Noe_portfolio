@@ -394,7 +394,8 @@ footer {
 
  /*Class & Bdi section*/
   .header1{
-    display: flex;
+    /*display: flex;*/
+    width: 100%;
   }
   .class-text h1{
     font-size: 28px;
@@ -408,20 +409,10 @@ footer {
     flex-wrap: wrap;
   }
   .art-pic h5{
-    margin-left: 80px;
+    /*margin-left: 80px;*/
+    width: 100%;
   }
-  .art-text{
-    margin-left: -40px;
-    margin-right: -60px;
 
- }
- .title{
-  margin-right: -40px;
-  margin-left: -50px;
- }
-  .pic{
-   padding-left: 50px;
-  }
   .aft-article{
     flex-wrap: wrap;
     width: 100%;
