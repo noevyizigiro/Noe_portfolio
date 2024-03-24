@@ -291,8 +291,7 @@ header{
 .title >p{
     font-size: 13px;
 }
-.article{
-    padding: 0 30px;
+.article1{
     background-color: rgba(242, 242, 242, 0.874);
 }
 .bdi-text{
@@ -316,7 +315,7 @@ header{
     margin-left: 6px;
     background-color: rgb(237, 255, 255);
     margin-bottom: 50px;
-    padding: 50px 50px;
+    padding: 0px 50px;
     line-height: 30px;
     margin-top: 10px;
  }
@@ -325,35 +324,29 @@ header{
     align-items: center;
     justify-content: center;
 }
-.pic{
-    margin-top: 0;
-    width: 500px;
-    height: 100vh;
-}
 
 .aft-article{
-    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
-    padding: 0 20px;
+    padding: 50px 50px;
 }
 .aft-cont1 img{
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     
 }
 
 .aft-cont2 img{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
-    margin-left: 30px;
+   
 }
 /*burundi section*/ 
 .header2{ /*this is for the header image*/
     background-image: url(image/mhta.jpeg);
     margin-bottom: 10px;
     margin-top: -10px;
+    width: 100%;
     background-size: cover;
     font-family: sans-serif; 
     
