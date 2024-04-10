@@ -418,6 +418,9 @@ footer {
     flex-wrap: wrap;
     width: 100%;
   }
+  .title >img{
+    width: 100%
+  }
   
 
     /* contact section*/
