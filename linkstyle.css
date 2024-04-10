@@ -294,8 +294,8 @@ header{
 .title >p{
     font-size: 13px;
 }
-.title >img{
-    width: 70%
+.title1>img{ /*new*/
+    width: 70%;
 }
 .article1{
     background-color: rgba(242, 242, 242, 0.874);
