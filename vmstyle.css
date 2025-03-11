@@ -630,14 +630,16 @@ header {
 }
 
 /* Contact Section */
+
 #contact {
-    padding: 40px; /* Adjusted padding */
+    padding: 40px;
     background-color: rgb(16, 59, 59);
-    margin-top: 0; /* Adjusted margin */
     color: white;
-    height: auto; /*Change to auto to be able to dynamically change section*/
-    margin-bottom: -30px;
-    flex: 1;
+    flex: 1; /* Allows it to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
 }
 
 .cont-title {
@@ -966,7 +968,7 @@ footer {
   }
 
   footer {
-    width: 125%;
+    width: 100%;
   }
 
   /*Class & Bdi section*/
