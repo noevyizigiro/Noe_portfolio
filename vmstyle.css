@@ -565,7 +565,7 @@ header {
 
 /* Coding Section */
 .pagetitle {
-  margin-top: 50px; /* Adjusted margin */
+  margin-top: 90px; /* Adjusted margin */
 }
 
 .code {
@@ -575,6 +575,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px; /* Adjusted gap */
+  margin-bottom: -20px;
 }
 
 .code p {
@@ -582,6 +583,7 @@ header {
   color: white;
   padding: 10px;
   border-radius: 5px;
+  
 }
 
 .code-block {
@@ -593,6 +595,7 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   margin-top: 20px; /* Adjusted margin */
+  margin-left: 40px;
 }
 
 .code-block h2 {
