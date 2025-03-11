@@ -279,7 +279,7 @@ header{
 .title1{ /*title for all following the header section*/
     text-align: center;
     background-color: rgb(255, 247, 247);  
-    font-size: 14px;
+    font-size: 10px;
     padding: 50px 50px;
     
 }
@@ -317,7 +317,7 @@ header{
 
  .art-text > p{
     background-color: rgb(237, 255, 255);
-    padding: 50px 50px;
+    padding: 50px 80px;
     line-height: 30px;
     margin-top: 10px;
  }
@@ -325,22 +325,22 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px 120px;
+    padding: 0px 200px;
 }
 
 .aft-article{
     align-items: center;
     justify-content: center;
-    padding: 50px 50px;
+    padding: 100px 200px;
 }
 .aft-cont1 img{
     height: 70vh;
-    width: 100%;   
+    width: 90%;   
 }
 
 .aft-cont2 img{
     height: 70vh;
-    width: 100%;
+    width: 90%;
     
    
 }
