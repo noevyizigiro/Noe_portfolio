@@ -383,26 +383,35 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 /* Portfolio Section */
+/* Portfolio section takes up remaining space */
 #portfolio {
-  padding: 40px; /* Reduced padding */
-  background-color: rgb(15, 15, 82);
-  margin-top: 50px; /* Reduced margin */
-  
+    flex: 1; /* Makes it take up available space */
+    padding: 40px;
+    background-color: rgb(15, 15, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content */
+    align-items: center; /* Centers content */
+    margin-top: 0; /* Remove margin pushing it down */
+   
 }
 
+/* Work list stays full width */
 .work-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 30px; /* Reduced gap */
-  margin-top: 40px; /* Reduced margin */
- 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    width: 100%;
+    max-width: 1200px; /* Optional to limit width */
 }
+
 
 .work {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
 }
+
 
 .work img {
   width: 100%;
@@ -433,7 +442,7 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0 20px; /* Adjusted padding */
   font-size: 0.9rem; /* Scalable font size */
   transition: height 0.5s;
-  flex: 1;
+
 }
 
 .layer p {
@@ -478,13 +487,13 @@ header {
 .header1 {
   background-image: url(image/libresearch.jpeg);
   margin-bottom: 10px;
-  margin-top: 70px; /*Reduced margin*/
+  margin-top: 50px; /*Reduced margin*/
   background-size: cover;
   background-position: center; /* Center the image */
   font-family: sans-serif;
   color: rgb(239, 142, 218);
   text-align: center;
-  font-size: 6rem; /* Scalable font size */
+  font-size: 3rem; /* Scalable font size */
   line-height: 1.5; /* Adjust line height for readability */
   padding: 20px; /* Add padding */
 }
