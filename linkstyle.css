@@ -273,6 +273,7 @@ header{
     text-align: center;
     font-size: 30px;
     line-height: 100px;
+    
 }
 .title1{ /*title for all following the header section*/
     text-align: center;
@@ -299,6 +300,12 @@ header{
 }
 .article1{
     background-color: rgba(242, 242, 242, 0.874);
+    padding: 50px 50px;
+    
+}
+.article2{
+    background-color: rgba(242, 242, 242, 0.874);
+    padding: 50px 50px;
     
 }
 
@@ -336,14 +343,14 @@ header{
 .aft-cont1 img{
     height: 70vh;
     width: 100%;
-    padding: 50px 50px;
+  
     
 }
 
 .aft-cont2 img{
     height: 70vh;
     width: 100%;
-    padding: 50px 50px;
+    
    
 }
 
