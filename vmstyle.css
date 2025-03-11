@@ -339,6 +339,7 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 50px 0; /* Reduced padding */
   background-color: rgb(15, 15, 82);
   margin-top: 20px; /* Reduced margin */
+  flex: 1;
 }
 
 .services-list {
@@ -386,6 +387,7 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 40px; /* Reduced padding */
   background-color: rgb(15, 15, 82);
   margin-top: 50px; /* Reduced margin */
+  
 }
 
 .work-list {
@@ -393,6 +395,7 @@ nav .navbar .links li:hover .js-sub-menu {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 30px; /* Reduced gap */
   margin-top: 40px; /* Reduced margin */
+ 
 }
 
 .work {
@@ -430,6 +433,7 @@ nav .navbar .links li:hover .js-sub-menu {
   padding: 0 20px; /* Adjusted padding */
   font-size: 0.9rem; /* Scalable font size */
   transition: height 0.5s;
+  flex: 1;
 }
 
 .layer p {
@@ -474,13 +478,13 @@ header {
 .header1 {
   background-image: url(image/libresearch.jpeg);
   margin-bottom: 10px;
-  margin-top: 30px; /*Reduced margin*/
+  margin-top: 70px; /*Reduced margin*/
   background-size: cover;
   background-position: center; /* Center the image */
   font-family: sans-serif;
   color: rgb(239, 142, 218);
   text-align: center;
-  font-size: 2rem; /* Scalable font size */
+  font-size: 6rem; /* Scalable font size */
   line-height: 1.5; /* Adjust line height for readability */
   padding: 20px; /* Add padding */
 }
@@ -546,6 +550,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 20px; /* Adjusted padding */
+  flex: 1;
 }
 
 .aft-article {
@@ -572,6 +577,7 @@ header {
 /* Coding Section */
 .pagetitle {
   margin-top: 90px; /* Adjusted margin */
+  text-align: center;
 }
 
 .code {
@@ -581,7 +587,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px; /* Adjusted gap */
-  margin-bottom: -20px;
+  margin-bottom: 50px;
   flex: 1;
 }
 
@@ -640,12 +646,15 @@ header {
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
     align-items: center; /* Centers content horizontally */
-    margin-top: 0; /* Ensures no extra gap above */
+    margin-top: 0px; /* Ensures no extra gap above */
+}
+#contact h1{
+    margin-top: 100px;
 }
 .cont-title {
   font-size: 2.5rem; /* Scalable font size */
   text-align: center;
-  margin-bottom: 30px; /* Adjusted margin */
+  margin-top: 40px; /* Adjusted margin */
 }
 
 .reach {
