@@ -346,18 +346,43 @@ header{
    
 }
 
-/*coding section*/
+/* Coding Section */
+.pagetitle{
+    margin-top: 80px;
+}
 .code {
     text-align: center;
-    padding: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.code p{
+    background-color: green;
 }
 
-.code p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.code-block {
+    width: 45%;
+    background: #e0dddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
 }
 
-.code a {
+.code-block h2 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.code-block p {
+    font-size: 16px;
+    color: red;
+}
+
+.code-block a {
     display: block;
     font-size: 16px;
     color: #2c3e50;
@@ -366,9 +391,10 @@ header{
     margin: 10px 0;
 }
 
-.code a:hover {
+.code-block a:hover {
     color: #1abc9c;
 }
+
 
 /* contact section*/
 #contact{
