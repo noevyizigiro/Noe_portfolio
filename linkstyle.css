@@ -273,20 +273,21 @@ header{
     text-align: center;
     font-size: 30px;
     line-height: 100px;
+
     
 }
 .title1{ /*title for all following the header section*/
     text-align: center;
     background-color: rgb(255, 247, 247);  
     font-size: 14px;
-    padding: 50px 50px;
+    padding: 0px 50px;
     
 }
 .title2{ /*title for all articles*/
     text-align: center;
     background-color: rgb(255, 255, 254); 
     font-size: 10px; 
-    padding: 50px 50px;
+    padding: 0px 50px;
     margin: 20px;
 }
 .title1 >p{
@@ -297,10 +298,6 @@ header{
 }
 .title1>img{ /*new*/
     width: 30%;
-}
-.art-cont{
-    
-    padding: 50px 50px;
 }
 
 
@@ -328,6 +325,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 80px;
 }
 
 .aft-article{
@@ -337,9 +335,7 @@ header{
 }
 .aft-cont1 img{
     height: 70vh;
-    width: 100%;
-  
-    
+    width: 100%;   
 }
 
 .aft-cont2 img{
