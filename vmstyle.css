@@ -632,16 +632,16 @@ header {
 /* Contact Section */
 
 #contact {
+    flex: 1; /* Ensures it takes all available space */
     padding: 40px;
     background-color: rgb(16, 59, 59);
     color: white;
-    flex: 1; /* Allows it to take up remaining space */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centers content vertically */
     align-items: center; /* Centers content horizontally */
+    margin-top: 0; /* Ensures no extra gap above */
 }
-
 .cont-title {
   font-size: 2.5rem; /* Scalable font size */
   text-align: center;
@@ -737,7 +737,6 @@ footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
-    margin-top: 30px /*Reduced margin*/
 }
 
 .social-icons {
