@@ -219,12 +219,12 @@ nav .navbar .links li:hover .js-sub-menu {
 
 /* Home Section (Assuming this is on your main index page) */
 .content {
-  padding: 150px 0; /* Reduced padding for responsiveness */
-  background-image: url(image/sunset.jpeg);
-  background-size: cover;
-  background-position: center; /* Ensure image is centered */
-  color: white; /* Ensure text is readable on the background */
-  text-align: center; /* Center align text */
+    padding: 50px 0; /* Reduced padding significantly, play around with this to match desired space */
+    background-image: url(image/sunset.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
 }
 
 .home-text {
@@ -461,14 +461,14 @@ nav .navbar .links li:hover .js-sub-menu {
 /* Class Section */
 header {
   position: relative;
-  height: 50vh;
+  height: auto;/*Adjust height*/
   width: 100%;
 }
 
 .header1 {
   background-image: url(image/libresearch.jpeg);
   margin-bottom: 10px;
-  margin-top: 60px;
+  margin-top: 30px; /*Reduced margin*/
   background-size: cover;
   background-position: center; /* Center the image */
   font-family: sans-serif;
@@ -547,7 +547,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 20px; /* Adjusted padding */
+  padding: 0; /*Adjust padding*/
 }
 
 .aft-cont1,
@@ -570,7 +570,7 @@ header {
 
 .code {
   text-align: center;
-  padding: 10px;
+  padding: 0; /*Adjust padding*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -621,10 +621,11 @@ header {
 
 /* Contact Section */
 #contact {
-  padding: 40px; /* Adjusted padding */
-  background-color: rgb(16, 59, 59);
-  margin-top: 30px; /* Adjusted margin */
-  color: white;
+    padding: 40px; /* Adjusted padding */
+    background-color: rgb(16, 59, 59);
+    margin-top: 0; /* Adjusted margin */
+    color: white;
+    height: auto; /*Change to auto to be able to dynamically change section*/
 }
 
 .cont-title {
@@ -717,12 +718,12 @@ form .btn.btn2:hover {
 
 /* Footer Styles */
 footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 20px 0; /* Increased padding for better spacing */
-  margin-top: 50px; /* Adjusted margin-top */
-  width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: 30px /*Reduced margin*/
 }
 
 .social-icons {
@@ -732,10 +733,10 @@ footer {
 .social-icons a {
   text-decoration: none;
   font-size: 30px;
-  margin: 0 15px; /* Adjusted margin for even spacing */
+  margin: 0 15px;
   color: rgb(159, 45, 137);
   display: inline-block;
-  transition: transform 0.3s ease; /* Shortened transition for faster response */
+  transition: transform 0.3s ease;
 }
 
 .social-icons a:hover {
